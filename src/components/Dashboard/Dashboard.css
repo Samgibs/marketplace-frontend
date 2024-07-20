@@ -1,0 +1,73 @@
+/* src/components/Dashboard/Dashboard.css */
+
+.dashboard-nav {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dashboard-nav li {
+  margin: 10px 0;
+}
+
+.dashboard-btn {
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.hover-glow {
+  background-color: #007bff;
+}
+
+.hover-glow:hover {
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.8);
+}
+
+.rounded-button {
+  background-color: #28a745;
+  border-radius: 25px;
+}
+
+.rounded-button:hover {
+  background-color: #218838;
+}
+
+.three-d-touch {
+  background-color: #17a2b8;
+  box-shadow: 0 4px #138496;
+}
+
+.three-d-touch:hover {
+  background-color: #138496;
+  box-shadow: 0 2px #117a8b;
+  transform: translateY(2px);
+}
+
+.button-045 {
+  background-color: #ffc107;
+  border: 2px solid #e0a800;
+}
+
+.button-045:hover {
+  background-color: #e0a800;
+  border-color: #d39e00;
+}
+
+.fancy-icon-button {
+  background-color: #6610f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fancy-icon-button:hover {
+  background-color: #520dc2;
+}
+
+.fancy-icon-button::before {
+  content: "✨";
+  margin-right: 8px;
+}
